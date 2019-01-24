@@ -3106,7 +3106,7 @@ form {
 .service-box {
     padding: 30px;
     margin-bottom: 30px;
-    height: 00px;
+    height: 300px;
     border: 1px solid #f1f1f1;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
