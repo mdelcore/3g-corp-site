@@ -331,7 +331,7 @@ padding: 18px 16px;
     width: 100%;
     height: auto;
     text-transform: uppercase !important;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     padding: 10px;
     white-space: nowrap;
@@ -342,7 +342,7 @@ padding: 18px 16px;
     text-align: center;
     text-shadow: 5px 5px 3px rgba(0,0,0,0.6);
     -webkit-text-shadow: 5px 5px 3px rgba(0,0,0,0.6);
-    background:url(../img/caption_bg.png) top left repeat;
+    /* background:url(../img/caption_bg.png) top left repeat; */
 }
 .slide1 .cap-2 {
     width:100%;
@@ -2159,7 +2159,7 @@ form {
     text-align: right;
 }
 .section-title h2 {
-    font-size: 40px;
+    font-size: 23px;
     line-height: 38px;
     text-transform: uppercase;
 }
@@ -3106,6 +3106,7 @@ form {
 .service-box {
     padding: 30px;
     margin-bottom: 30px;
+    height: 00px;
     border: 1px solid #f1f1f1;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
