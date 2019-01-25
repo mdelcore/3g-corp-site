@@ -278,7 +278,7 @@ padding: 18px 16px;
 }
 #top_menu .nav-pills > .active {}
 #top_menu .nav-pills > .active > a, #top_menu .nav-pills > li > a:hover {
-    background:#006400;
+    background:#395b83;
     border-radius:0;
     color:#fff;
 }
