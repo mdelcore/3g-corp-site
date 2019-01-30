@@ -2130,12 +2130,12 @@ form {
 }
 .page-title .title-box h1 {
     display: inline-block;
-    color: #800000;
+    color: #00586f;
     text-transform: uppercase;
     font-weight: bold;
     padding: 15px 20px;
-    border-left: 2px solid #800000;
-    border-right: 2px solid #800000;
+    border-left: 2px solid #00586f;
+    border-right: 2px solid #00586f;
 }
 .section-title {
     padding: 10px 15px;
@@ -3107,7 +3107,7 @@ form {
     padding: 30px;
     margin-bottom: 30px;
     height: 300px;
-    border: 1px solid #800000;
+    border: 1px solid #00586f;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
@@ -3119,7 +3119,7 @@ form {
 .service-box .icon {
     font-size: 60px;
     margin-bottom: 20px;
-    color: #800000;
+    color: #00586f;
 }
 .service-box h3 {
     text-transform: uppercase;
