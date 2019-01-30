@@ -2165,6 +2165,14 @@ form {
     color: #00586f;
 }
 
+.section-title2 {
+    padding: 10px 15px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    color: #00586f;
+}
+
 .section-title.title-small h2 {
     font-size: 22px;
     line-height: 20px;
