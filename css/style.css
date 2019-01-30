@@ -2230,18 +2230,19 @@ form {
 .promo-image img {
     margin: 10px auto;
 }
-.checkList {
+.checkList-services {
     margin: 0;
     list-style: none;
 }
-.checkList li {
-    font-weight: 600;
+.checkList-services li {
+    font-weight: 400;
     font-size: 16px;
-    color: #595959;
-    margin-bottom: 20px;
+    color: #ffbf3c;
+    margin-bottom: 15px;
 }
-.checkList li .fa {
+.checkList-services li .fa {
     margin-right: 15px;
+    margin-left: 5px;
 }
 .resources {
     margin-bottom: 50px;
@@ -3111,10 +3112,21 @@ form {
     padding: 30px;
     margin-bottom: 30px;
     height: 300px;
+    background-color: #00586f;
     border: 1px solid #00586f;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
+
+.service-box-even {
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    border: 1px solid #ffbf3c;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
 .service-box:hover {
     box-shadow: 0 3px 38px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 3px 38px rgba(0, 0, 0, 0.1);
@@ -3131,13 +3143,30 @@ form {
     margin-bottom: 15px;
     letter-spacing: 1px;
     line-height: normal;
-    color: #000000;
+    color: #ffbf3c;
 }
+
+.service-box-even h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: #00586f;
+}
+
 .service-box p {
     margin-bottom: 15px;
     line-height: normal;
-    color: #595959;
+    color: #ffbf3c;
 }
+
+.service-box-even p {
+    margin-bottom: 15px;
+    line-height: normal;
+    color: #00586f;
+}
+
 .blog-block {
     padding: 50px 0;
 }
