@@ -2689,6 +2689,9 @@ form {
 .featured-listings .featured-item .heading {
     text-transform: uppercase;
     font-size: 19px;
+    font-weight: bold;
+    display: block;
+    color: #00586f;
     margin-bottom: 15px;
 }
 .featured-listings .featured-item address {
@@ -2734,10 +2737,11 @@ form {
     padding: 15px;
     font-size: 18px;
     display: block;
-    color: #ffffff;
-    text-align: center;
+    color: #FFBF3C;
+    text-align: right;
     font-weight: bold;
     text-transform: uppercase;
+    border-bottom: 1px solid #00586f;
 }
 .featured-listings .featured-item .item-info .more.load a  {
 	background:url('../img/preload_sm2.GIF') center no-repeat;
