@@ -60,6 +60,7 @@ h1, h2, h3 {
 }
 h2 {
     font-weight:bold;
+    padding-bottom: 15px;
 }
 
 
@@ -2161,7 +2162,7 @@ form {
     position: relative;
     border-left: 2px solid;
     margin-bottom: 20px;
-    margin-top: 35px;
+    margin-top: 50px;
     color: #00586f;
 }
 
@@ -2169,7 +2170,7 @@ form {
     padding: 10px 15px;
     position: relative;
     margin-bottom: 20px;
-    margin-top: 35px;
+    margin-top: 15px;
     color: #00586f;
 }
 
@@ -2269,7 +2270,7 @@ form {
     font-weight: 400;
     font-size: 16px;
     color: #00586f;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .checkList li {
     margin-right: 15px;
