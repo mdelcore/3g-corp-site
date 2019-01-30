@@ -232,7 +232,7 @@ h2 {
     margin: auto;
 }
 #top_menu {
-    background-color: #800000;
+    background-color: #00586f;
     margin-top: -50px;
 }
 .navbar {
@@ -278,7 +278,7 @@ padding: 18px 16px;
 }
 #top_menu .nav-pills > .active {}
 #top_menu .nav-pills > .active > a, #top_menu .nav-pills > li > a:hover {
-    background:#395b83;
+    background:#ffbf3c;
     border-radius:0;
     color:#fff;
 }
