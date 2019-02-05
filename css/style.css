@@ -2760,7 +2760,7 @@ form {
 }
 .featured-listings .featured-item .characteristics ul li {
     float: left;
-    width: 33%;
+    /* width: 33%; */
     font-size: 13px;
     line-height: 13px;
     color: #666;
@@ -3157,7 +3157,7 @@ form {
 .service-box {
     padding: 30px;
     margin-bottom: 30px;
-    height: 300px;
+    height: 357px;
     background-color: #00586f;
     border: 1px solid #00586f;
     transition: all 0.3s ease-in-out;
@@ -3167,7 +3167,7 @@ form {
 .service-box-even {
     padding: 30px;
     margin-bottom: 30px;
-    height: 300px;
+    height: 357px;
     border: 1px solid #ffbf3c;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
