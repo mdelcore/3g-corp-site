@@ -75,10 +75,20 @@
                         <div class="navbar-collapse collapse">
                           <ul class="nav nav-pills">
                             <!-- edit navigation menu -->
-                            <li><a href="index.html">HOME</a></li>
+                            <li class=""><a href="index.html">HOME</a></li>
                             <li><a href="properties.html">Properties</a></li>
                             <li><a href="about.html">ABOUT</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">SERVICES
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                <a href="services.html">Management Services</a>
+                                <a href="independent-living.html">Independent Living</a>
+                                <a href="assisted-living.html">Assisted Living</a>
+                                <a href="skilled-nursing.html">Skilled Nursing</a>
+                            </div>
+                            </div>
                             <!-- <li><a href="blog.html">Blog</a></li> -->
                             <li><a href="contact.html">CONTACT US</a></li>
                             <!-- /end navigation menu -->
@@ -104,9 +114,8 @@
                         <h2><span class="normal">Benefits</span> <span class="styler_color"></span></h2>
                         <ul style="list-style-type:circle;"class="checkList">
                             <li>Residents receive similar services and amenities to those living independently with additional care plans tailored to their unique needs</li>
-                            <li>Overall goal is to preserve resident's comfort, security, and independence, but we are there to lend a hand with daily tasks</li>
-                            <li>Great alternative for seniors who can no longer live on their own, yet don't need 24 hour complex medical supervision</li>
-                            <li>Knowing that 3G Healthcare offers assisted living as part of our continuum of care provides our residents with great peace of mind</li>
+                            <li>Overall goal is to preserve each resident's comfort, security, and improve independence, while lending a hand with daily activities</li>
+                            <li>Great alternative for seniors who can no longer live on their own, yet don't need 24 hour complex medical care</li>
                           </ul>
                       </div>
                   </div>
@@ -137,14 +146,9 @@
                         <div class="section-title2">
                           <h2 class="normal"><span>Assisted Living Services</span></h2>
                           <ul style="list-style-type:circle;"class="checkList">
-                              <li>Cleaning</li>
-                              <li>Bathing</li>
-                              <li>Dressing</li>
-                              <li>Personal Hygiene</li>
-                              <li>Medication Supervision</li>
-                              <li>Meal Preparation</li>
-                              <li>Housekeeping</li>
-                              <li>Transportation</li>
+                              <li>Medical Supervision</li>
+                              <li>Administration</li>
+                              <li>Wellness and Daily Activities to keep one active enjoying the things they like to do</li>
                             </ul>
                         </div>
                       </div>
@@ -171,9 +175,9 @@
                           <div class="section-title2">
                             <h2 class="normal"><span>Memory Care</span></h2>
                             <ul style="list-style-type:circle;"class="checkList">
-                                <li>3G Heathcare's Assisted Living facilities also provide care for those experiencing early stages of dementia, Alzheimer's or memory loss</li>
-                                <li>Our specially trained staff works with a medical care team to provide compassionate care while maximizing one's quality of life</li>
-                                <li>Our memory care programs are offered in secure settings while allowing residents access to well appointed dining, living and activity areas</li>
+                                <li>3G Heathcare's Assisted Living communitties also provide care for those experiencing early stages of dementia, Alzheimer's or severe memory loss</li>
+                                <li>Our trained staff works with a medical care team to provide compassionate care while maximizing one's quality of life</li>
+                                <li>Our memory care programs are offered in safe and secured environment while allowing residents access to well appointed dining, living and activity areas</li>
                               </ul>
                           </div>
                         </div>
@@ -347,7 +351,8 @@
         <!-- <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script> -->
         <!-- /end style switcher -->
 
-		<!-- scripting (at the bottom for faster loading) -->
+    <!-- scripting (at the bottom for faster loading) -->
+        <script type="text/javascript" src="js/nav.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>

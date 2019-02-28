@@ -75,10 +75,20 @@
                         <div class="navbar-collapse collapse">
                           <ul class="nav nav-pills">
                             <!-- edit navigation menu -->
-                            <li><a href="index.html">HOME</a></li>
+                            <li class=""><a href="index.html">HOME</a></li>
                             <li><a href="properties.html">Properties</a></li>
                             <li><a href="about.html">ABOUT</a></li>
-                            <li class="active"><a href="services.html">Services</a></li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">SERVICES
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                <a href="services.html">Management Services</a>
+                                <a href="independent-living.html">Independent Living</a>
+                                <a href="assisted-living.html">Assisted Living</a>
+                                <a href="skilled-nursing.html">Skilled Nursing</a>
+                            </div>
+                            </div>
                             <!-- <li><a href="blog.html">Blog</a></li> -->
                             <li><a href="contact.html">CONTACT US</a></li>
                             <!-- /end navigation menu -->
@@ -127,7 +137,7 @@
                           <i class="fa fa-ambulance" aria-hidden="true"></i>
                         </div> -->
                         <h3>Clinical Outcome Management</h3>
-                        <p>At 3G Healthcare we help develop and implement innovations to optimize health system performance in each of our facilities.</p>
+                        <p>At 3G Healthcare we help develop and implement innovations to optimize health system performance in each of our communities.</p>
                         <!-- <a href="#" class="button button-big styler_bg_color">View Detail</a> -->
                       </div>
                     </div>
@@ -137,7 +147,7 @@
                           <i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
                         </div> -->
                         <h3>Regulatory Compliance</h3>
-                        <p>3G Healthcare adheres to the highest levels of standards of operations of the maintenance of our communities.</p>
+                        <p>3G Healthcare adheres to the highest levels of standards, operations and maintenance of our communities.</p>
                         <!-- <a href="#" class="button button-big styler_bg_color">View Detail</a> -->
                       </div>
                     </div>
@@ -158,8 +168,8 @@
                         <!-- <div class="icon styler_color">
                           <i class="fa fa-book" aria-hidden="true"></i>
                         </div> -->
-                        <h3>Acquisitions</h3>
-                        <p>The rate of senior and long term care providers coming together has risen dramatically in the past few years. With records being set the last two years, now is the time to join 3G Healthcare to help build your senior care network.</p>
+                        <h3>Acquisitions & Strategic Positioning and Repurposing</h3>
+                        <p>The rate of senior and long term care providers coming together has risen dramatically in the past few years. With records being set the last two years, now is the time to join 3G Healthcare to help build your senior care network. Communities managed by 3G Healthcare are successful due to the fact they are promoted by strong sales and marketing services.</p>
                         <!-- <a href="#" class="button button-big styler_bg_color">View Detail</a> -->
                       </div>
                     </div>
@@ -169,21 +179,21 @@
                           <i class="fa fa-clipboard" aria-hidden="true"></i>
                         </div> -->
                         <h3>Financial Management</h3>
-                        <p>Due to their growth in developing thriving senior housing facilities, 3G Healthcare delivers a strong financial bottom line.</p>
+                        <p>Due to their growth in developing thriving senior housing communities, 3G Healthcare delivers strong financial returns without jeopardizing care.</p>
                         <!-- <a href="#" class="button button-big styler_bg_color">View Detail</a> -->
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-sm-4">
-                      <div class="service-box">
-                        <!-- <div class="icon styler_color">
+                      <!-- <div class="service-box">
+                        <div class="icon styler_color">
                           <i class="fa fa-certificate" aria-hidden="true"></i>
-                        </div> -->
+                        </div>
                         <h3>Strategic Positioning and Repurposing</h3>
                         <p>The communities managed by 3G Healthcare are successful due to the fact they are promoted by strong sales and marketing services.</p>
-                        <!-- <a href="#" class="button button-big styler_bg_color">View Detail</a> -->
-                      </div>
+                        <a href="#" class="button button-big styler_bg_color">View Detail</a>
+                      </div> -->
                     </div>
                     <!-- <div class="col-sm-4">
                       <div class="service-box">
@@ -353,7 +363,8 @@
         <!-- <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script> -->
         <!-- /end style switcher -->
 
-		<!-- scripting (at the bottom for faster loading) -->
+    <!-- scripting (at the bottom for faster loading) -->
+        <script type="text/javascript" src="js/nav.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>

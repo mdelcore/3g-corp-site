@@ -75,10 +75,20 @@
                         <div class="navbar-collapse collapse">
                           <ul class="nav nav-pills">
                             <!-- edit navigation menu -->
-                            <li><a href="index.html">HOME</a></li>
+                            <li class=""><a href="index.html">HOME</a></li>
                             <li><a href="properties.html">Properties</a></li>
                             <li><a href="about.html">ABOUT</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">SERVICES
+                                    <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                <a href="services.html">Management Services</a>
+                                <a href="independent-living.html">Independent Living</a>
+                                <a href="assisted-living.html">Assisted Living</a>
+                                <a href="skilled-nursing.html">Skilled Nursing</a>
+                            </div>
+                            </div>
                             <!-- <li><a href="blog.html">Blog</a></li> -->
                             <li><a href="contact.html">CONTACT US</a></li>
                             <!-- /end navigation menu -->
@@ -104,9 +114,9 @@
                         <h2><span class="normal">Benefits</span> <span class="styler_color"></span></h2>
                         <ul style="list-style-type:circle;"class="checkList">
                             <li>Housing options for senior citizens who desire to live on their own, with a maintenance free lifestyle, while allowing them to enjoy all the amenities we have to offer</li>
-                            <li>Provides residents top notch service and care</li>
-                            <li>Live surrounded by people their own age who share the same interests and activities</li>
-                            <li>Provides a variety of levels of care as residents advance through the stages of life</li>
+                            <li>We strive to provide all our residents top notch service</li>
+                            <li>Live surrounded by people who share the same interests and activities</li>
+                            <li>Provides assistance to residence in transition to another level of care</li>
                           </ul>
                       </div>
                   </div>
@@ -139,7 +149,7 @@
                           <ul style="list-style-type:circle;"class="checkList">
                               <li>Health and wellness programs</li>
                               <li>Unique healthy and flavorful meal options</li>
-                              <li>Monthly events to keep one active enjoying what the things they like to do</li>
+                              <li>Monthly events to keep one active enjoying the things they like to do</li>
                             </ul>
                         </div>
                       </div>
@@ -157,7 +167,7 @@
                     </div> -->
                   </div>
                   <div class="section-title1 styler_color">
-                      <h2><span class="normal">THE GOAL OF INDEPENDENT LIVING AT 3G HEALTHCARE IS ALLOWING OUR RESIDENTS TO BE WHO THEY ARE DOING THE THINGS THEY LOVE!</span></h2>
+                      <h2><span class="normal">THE GOAL OF INDEPENDENT LIVING AT A 3G HEALTHCARE COMMUNITY IS ALLOWING OUR RESIDENTS TO BE WHO THEY ARE DOING THE THINGS THEY LOVE!</span></h2>
                       <p></p>
                     </div>
                 </div>
@@ -299,7 +309,8 @@
         <!-- <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script> -->
         <!-- /end style switcher -->
 
-		<!-- scripting (at the bottom for faster loading) -->
+    <!-- scripting (at the bottom for faster loading) -->
+        <script type="text/javascript" src="js/nav.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>

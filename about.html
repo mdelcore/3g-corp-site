@@ -75,10 +75,20 @@
                         <div class="navbar-collapse collapse">
                           <ul class="nav nav-pills">
                             <!-- edit navigation menu -->
-                            <li><a href="index.html">HOME</a></li>
+                            <li class=""><a href="index.html">HOME</a></li>
                             <li><a href="properties.html">Properties</a></li>
-                            <li class="active"><a href="about.html">ABOUT</a></li>
-                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">SERVICES
+                                  <i class="fa fa-chevron-down"></i>
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="services.html">Management Services</a>
+                                  <a href="independent-living.html">Independent Living</a>
+                                  <a href="assisted-living.html">Assisted Living</a>
+                                  <a href="skilled-nursing.html">Skilled Nursing</a>
+                                </div>
+                            </div>
                             <!-- <li><a href="blog.html">Blog</a></li> -->
                             <li><a href="contact.html">CONTACT US</a></li>
                             <!-- /end navigation menu -->
@@ -105,7 +115,7 @@
                         <!-- <p>TWO FOUNDERS. THREE GENERATIONS OF EXPERIENCE.</p> -->
                       </div>
                       <div class="about-text">
-                        <p>Today 3G Healthcare operates the Adara Living in Broomfield, Colorado and in the Fall of 2019, they will be opening The Oars at Greenback Lane, a senior living community in Citrus Heights, CA. In addition to two other locations in California, they are continually looking to expand their operations nationwide. If you would like to partner with 3G Healthcare and see what their knowledge and experience can bring to your development or facility, please visit the <a href="contact.html">Contact page</a> or call (720) 710-5580. </p>
+                        <p>Today 3G Healthcare operates Adara Living in Broomfield, Colorado and in the Fall of 2019, they will be opening The Oars at Greenback Lane, a senior living development in Citrus Heights, CA. In addition to two other locations in California, they are currently expanding their operations nationwide. If you would like to partner with 3G Healthcare and see what their knowledge and experience can bring to your development or facility, please visit the <a href="contact.html">Contact page</a> or call (720) 710-5580. </p>
                         <div class="row">
                             <div class="col-sm-6">
                               <ul class="checkList">
@@ -312,7 +322,8 @@
         <!-- <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script> -->
         <!-- /end style switcher -->
 
-		<!-- scripting (at the bottom for faster loading) -->
+    <!-- scripting (at the bottom for faster loading) -->
+        <script type="text/javascript" src="js/nav.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>

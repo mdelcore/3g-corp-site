@@ -80,10 +80,20 @@
                                                     <div class="navbar-collapse collapse">
                                                         <ul class="nav nav-pills">
                                                             <!-- edit navigation menu -->
-                                                            <li class="active"><a href="index.html">HOME</a></li>
+                                                            <li class=""><a href="index.html">HOME</a></li>
                                                             <li><a href="properties.html">Properties</a></li>
                                                             <li><a href="about.html">ABOUT</a></li>
-                                                            <li><a href="services.html">Services</a></li>
+                                                            <div class="dropdown">
+                                                                <button onclick="myFunction()" class="dropbtn">SERVICES
+                                                                    <i class="fa fa-chevron-down"></i>
+                                                                </button>
+                                                                <div id="myDropdown" class="dropdown-content">
+                                                                <a href="services.html">Management Services</a>
+                                                                <a href="independent-living.html">Independent Living</a>
+                                                                <a href="assisted-living.html">Assisted Living</a>
+                                                                <a href="skilled-nursing.html">Skilled Nursing</a>
+                                                            </div>
+                                                            </div>
                                                             <!-- <li ><a href="blog.html">Blog</a></li> -->
                                                             <li><a href="contact.html">CONTACT US</a></li>
                                                             <!-- /end navigation menu -->
@@ -416,7 +426,7 @@
                                               </div>
                                             </div>
                                             <div class="section-title title-button styler_color">
-                                                <h2><span class="normal">We are experienced, accessible, and it's our facilities the set us apart.</span></h2>
+                                                <h2><span class="normal">We are experienced, accessible, and it's our communities that set us apart.</span></h2>
                                                 <!-- <a href="" class="button button-big styler_bg_color">View All Properties</a> -->
                                                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh orci, commodo at mi non, ullamcorper elementum mauris.</p> -->
                                                 <div class="clearfix"></div>
@@ -2800,6 +2810,24 @@
         </div>
         <!-- /end footer -->
 
+        <!-- <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(e) {
+                  if (!e.target.matches('.dropbtn')) {
+                  var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                      myDropdown.classList.remove('show');
+                    }
+                  }
+                }
+                </script> -->
+
 
         <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
         <script type="text/javascript" src="js/jquery-ui.min.js"></script>
@@ -2810,7 +2838,8 @@
         <!-- <script type="text/javascript" src="js/style-switcher/style-switcher.js"></script> -->
         <!-- /end style switcher -->
 
-		<!-- scripting (at the bottom for faster loading) -->
+        <!-- scripting (at the bottom for faster loading) -->
+        <script type="text/javascript" src="js/nav.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
         <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>
