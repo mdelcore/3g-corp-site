@@ -72,6 +72,12 @@
 #top_menu .nav-pills {
     float: none;
 }
+.service-box {
+    height: 487px;
+}
+.service-box-even {
+    height: 487px;
+}
 }
 @media (max-width: 820px) {
     .cap-1 {
